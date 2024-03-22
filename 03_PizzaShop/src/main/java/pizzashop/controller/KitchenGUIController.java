@@ -19,7 +19,6 @@ public class KitchenGUIController {
     public static  ObservableList<String> order = FXCollections.observableArrayList();
     private Object selectedOrder;
     private Calendar now = Calendar.getInstance();
-    private String extractedTableNumberString = new String();
     private int extractedTableNumberInteger;
     //thread for adding data to kitchenOrderList
     public  Thread addOrders = new Thread(new Runnable() {
@@ -55,6 +54,7 @@ public class KitchenGUIController {
         });
         //Controller for Ready Button
         ready.setOnAction(event -> {
+            String extractedTableNumberString;
             selectedOrder = kitchenOrdersList.getSelectionModel().getSelectedItem();
             kitchenOrdersList.getItems().remove(selectedOrder);
             extractedTableNumberString = selectedOrder.toString().subSequence(5, 6).toString();

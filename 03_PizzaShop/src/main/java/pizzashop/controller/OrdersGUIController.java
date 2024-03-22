@@ -26,7 +26,7 @@ public class OrdersGUIController {
     @FXML
     private TableColumn tableQuantity;
     @FXML
-    protected TableColumn tableMenuItem;
+    protected TableColumn<MenuDataModel, String> tableMenuItem;
     @FXML
     private TableColumn tablePrice;
     @FXML
@@ -44,13 +44,13 @@ public class OrdersGUIController {
     @FXML
     private Button newOrder;
 
-    private   List<String> orderList = FXCollections.observableArrayList();
+    private List<String> orderList = FXCollections.observableArrayList();
     private List<Double> orderPaymentList = FXCollections.observableArrayList();
     public static double getTotalAmount() {
         return totalAmount;
     }
-    public void setTotalAmount(double totalAmount) {
-        this.totalAmount = totalAmount;
+    public static void setTotalAmount(double total) {
+        totalAmount = total;
     }
 
     private PizzaService service;

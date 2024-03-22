@@ -42,14 +42,14 @@ public class MainGUIController  {
     @FXML
     private MenuItem help;
 
-    OrdersGUI table1Orders = new OrdersGUI();
+    /*OrdersGUI table1Orders = new OrdersGUI();
     OrdersGUI  table2Orders = new OrdersGUI();
     OrdersGUI  table3Orders = new OrdersGUI();
     OrdersGUI  table4Orders = new OrdersGUI();
     OrdersGUI  table5Orders = new OrdersGUI();
     OrdersGUI  table6Orders = new OrdersGUI();
     OrdersGUI  table7Orders = new OrdersGUI();
-    OrdersGUI  table8Orders = new OrdersGUI();
+    OrdersGUI  table8Orders = new OrdersGUI();*/
 
     PizzaService service;
 
@@ -62,36 +62,44 @@ public class MainGUIController  {
 
     private void tableHandlers(){
         table1.setOnAction(event -> {
-            table1Orders.setTableNumber(1);
-            table1Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(1);
+            tableOrders.displayOrdersForm(service);
         });
         table2.setOnAction(event -> {
-            table2Orders.setTableNumber(2);
-            table2Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(2);
+            tableOrders.displayOrdersForm(service);
         });
         table3.setOnAction(event -> {
-            table3Orders.setTableNumber(3);
-            table3Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(3);
+            tableOrders.displayOrdersForm(service);
         });
         table4.setOnAction(event -> {
-            table4Orders.setTableNumber(4);
-            table4Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(4);
+            tableOrders.displayOrdersForm(service);
         });
         table5.setOnAction(event -> {
-            table5Orders.setTableNumber(5);
-            table5Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(5);
+            tableOrders.displayOrdersForm(service);
         });
         table6.setOnAction(event -> {
-            table6Orders.setTableNumber(6);
-            table6Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(6);
+            tableOrders.displayOrdersForm(service);
         });
         table7.setOnAction(event -> {
-            table7Orders.setTableNumber(7);
-            table7Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(7);
+            tableOrders.displayOrdersForm(service);
         });
         table8.setOnAction(event -> {
-            table8Orders.setTableNumber(8);
-            table8Orders.displayOrdersForm(service);
+            OrdersGUI tableOrders = new OrdersGUI();
+            tableOrders.setTableNumber(8);
+            tableOrders.displayOrdersForm(service);
         });
 
     }

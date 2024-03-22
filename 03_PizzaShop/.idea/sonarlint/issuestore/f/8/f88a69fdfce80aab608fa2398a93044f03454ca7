@@ -1,0 +1,13 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(¬¾Ó¼ıÿÿÿÿ8£‡À¬æ1
+i
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦8Ã‡À¬æ1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›öÚûÿÿÿÿ8Ã‡À¬æ1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ñö²8È‡À¬æ1
+a
+java:S2147 "DCombine this catch with the one at line 30, which has the same body.(ï­£Ä8Ì‡À¬æ1
+L	java:S106#"+Replace this use of System.out by a logger.(ó†«µûÿÿÿÿ8Ï‡À¬æ1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Ğ‡À¬æ1

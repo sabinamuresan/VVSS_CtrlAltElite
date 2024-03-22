@@ -31,6 +31,8 @@ public class MenuRepository {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        }finally {
+            System.out.println("Citirea s-a terminat");
         }
     }
 
