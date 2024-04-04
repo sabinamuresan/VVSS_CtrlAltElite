@@ -24,6 +24,10 @@ public class PizzaService {
 
     public void addPayment(int table, PaymentType type, double amount){
         Payment payment= new Payment(table, type, amount);
+        if (table < 1 || table > 8)
+            throw new PaymentException("Table number must be in [1,8]");
+        if (amount <= 0)
+            throw new PaymentException("Amount should be >0");
         payRepo.add(payment);
     }
 
