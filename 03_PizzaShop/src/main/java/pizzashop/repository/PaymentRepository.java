@@ -55,6 +55,9 @@ public class PaymentRepository {
     public List<Payment> getAll(){
         return paymentList;
     }
+    public void setList(List<Payment> list){
+       this.paymentList = list;
+    }
 
     public void writeAll(){
         //ClassLoader classLoader = PaymentRepository.class.getClassLoader();

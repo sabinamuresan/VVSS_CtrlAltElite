@@ -1,32 +1,32 @@
 
-J
-java:S3740"/Provide the parametrized type for this generic.(èöâáøÿÿÿÿ
-E
-java:S3740"/Provide the parametrized type for this generic.(×è¸–
-J
-java:S3740"/Provide the parametrized type for this generic.(ƒÀÒëüÿÿÿÿ
-n
-java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(›ÊØ
+Q
+java:S3740"/Provide the parametrized type for this generic.(èöâáøÿÿÿÿ8ËÓßŠï1
+L
+java:S3740"/Provide the parametrized type for this generic.(×è¸–8ÍÓßŠï1
+Q
+java:S3740"/Provide the parametrized type for this generic.(ƒÀÒëüÿÿÿÿ8ÎÓßŠï1
+u
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(›ÊØ8áÓßŠï1
 {
-java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ë´ùÿÿÿÿÿ8”„Ñ¬æ1
-C
-java:S1604{"(Make this anonymous inner class a lambda(ÎÃßÓüÿÿÿÿ
-p
-java:S1104;"ZMake observableList a static final constant or non-public and provide accessors if needed.(Ù½©Æ
-œ
-java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(È’Êøÿÿÿÿ
-r
-java:S1450="WRemove the "menuData" field and declare it as a local variable in the relevant methods.(³£–øÿÿÿÿ
-V	java:S125="<This block of commented-out lines of code should be removed.(³£–øÿÿÿÿ
-G
-java:S1602[",Remove useless curly braces around statement(ÇË®ûùÿÿÿÿ
-@	java:S106f"+Replace this use of System.out by a logger.(ú•€Ë
-@	java:S106g"+Replace this use of System.out by a logger.(ÑºŠ‰
-@	java:S106h"+Replace this use of System.out by a logger.(¢ùù
-@	java:S106i"+Replace this use of System.out by a logger.(ú•€Ë
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ë´ùÿÿÿÿÿ8âÓßŠï1
+J
+java:S1604{"(Make this anonymous inner class a lambda(ÎÃßÓüÿÿÿÿ8ëÓßŠï1
+w
+java:S1104;"ZMake observableList a static final constant or non-public and provide accessors if needed.(Ù½©Æ8íÓßŠï1
+£
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(È’Êøÿÿÿÿ8ÖÕßŠï1
+y
+java:S1450="WRemove the "menuData" field and declare it as a local variable in the relevant methods.(³£–øÿÿÿÿ8ŞÕßŠï1
+]	java:S125="<This block of commented-out lines of code should be removed.(³£–øÿÿÿÿ8ÿÕßŠï1
+N
+java:S1602[",Remove useless curly braces around statement(ÇË®ûùÿÿÿÿ8šÖßŠï1
+G	java:S106f"+Replace this use of System.out by a logger.(ú•€Ë8¬ÖßŠï1
+G	java:S106g"+Replace this use of System.out by a logger.(ÑºŠ‰8­ÖßŠï1
+G	java:S106h"+Replace this use of System.out by a logger.(¢ùù8®ÖßŠï1
+G	java:S106i"+Replace this use of System.out by a logger.(ú•€Ë8°ÖßŠï1
 W
-java:S2209k"5Change this instance-reference to a static reference.(…î˜±ÿÿÿÿÿ8ø˜¬æ1
-H
-java:S1602ˆ",Remove useless curly braces around statement(¸¯¥–úÿÿÿÿ
+java:S2209k"5Change this instance-reference to a static reference.(…î˜±ÿÿÿÿÿ8¶ÖßŠï1
+O
+java:S1602ˆ",Remove useless curly braces around statement(¸¯¥–úÿÿÿÿ8ÍÖßŠï1
 V
-java:S1128"4Remove this unused import 'pizzashop.gui.OrdersGUI'.(¿ëÇÈøÿÿÿÿ8™¡¬æ1
+java:S1128"4Remove this unused import 'pizzashop.gui.OrdersGUI'.(¿ëÇÈøÿÿÿÿ8ÛÖßŠï1

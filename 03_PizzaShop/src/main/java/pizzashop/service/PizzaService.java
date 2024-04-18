@@ -21,6 +21,9 @@ public class PizzaService {
     public List<MenuDataModel> getMenuData(){return menuRepo.getMenu();}
 
     public List<Payment> getPayments(){return payRepo.getAll(); }
+    public void setPaymentList(List<Payment> list){
+        payRepo.setList(list);
+    }
 
     public void addPayment(int table, PaymentType type, double amount){
         Payment payment= new Payment(table, type, amount);
@@ -37,7 +40,11 @@ public class PizzaService {
         if ((l==null) || l.isEmpty()) return total;
         for (Payment p:l){
             if (p.getType().equals(type))
+            {
                 total+=p.getAmount();
+                if(total >= 10000)
+                    break;
+            }
         }
         return total;
     }

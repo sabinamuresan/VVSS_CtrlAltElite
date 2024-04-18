@@ -1,20 +1,20 @@
 
 ž
-java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚–ˆ‡8˜¶„¬æ1
-]	java:S125-"<This block of commented-out lines of code should be removed.(Ý¼‡ýøÿÿÿÿ8ž¶„¬æ1
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚–ˆ‡8ÑÞßŠï1
+]	java:S125-"<This block of commented-out lines of code should be removed.(Ý¼‡ýøÿÿÿÿ8ÖÞßŠï1
 U
-java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8Ì¶„¬æ1
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8ŠßßŠï1
 S
-java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8Í¶„¬æ1
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ŠßßŠï1
 W
-java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ8Í¶„¬æ1
+java:S1128"5Remove this unused import 'javafx.scene.layout.VBox'.(íÆáÂùÿÿÿÿ8ŠßßŠï1
 R
-java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à8Í¶„¬æ1
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.(Ïî£à8ŠßßŠï1
 S
-java:S1128"6Remove this unused import 'javafx.scene.shape.Circle'.(ÃÁò«8Î¶„¬æ1
+java:S1128"6Remove this unused import 'javafx.scene.shape.Circle'.(ÃÁò«8‹ßßŠï1
 R
-java:S1128"5Remove this unused import 'javafx.stage.PopupWindow'.(˜ŽÏŸ8Î¶„¬æ1
+java:S1128"5Remove this unused import 'javafx.stage.PopupWindow'.(˜ŽÏŸ8‹ßßŠï1
 [
-java:S1128"9Remove this unused import 'javafx.scene.text.FontWeight'.(„­Þþÿÿÿÿ8Î¶„¬æ1
+java:S1128"9Remove this unused import 'javafx.scene.text.FontWeight'.(„­Þþÿÿÿÿ8‹ßßŠï1
 [
-java:S1128">Remove this unused import 'javafx.scene.paint.Color.DARKBLUE'.(”ƒð±8Ï¶„¬æ1
+java:S1128">Remove this unused import 'javafx.scene.paint.Color.DARKBLUE'.(”ƒð±8‹ßßŠï1
