@@ -56,7 +56,9 @@ public class PaymentRepository {
     }
 
     public void add(Payment payment){
-        List<String> errors = paymentValidator.validate(payment);
+        List<String> errors = new ArrayList<>();
+        if(this.paymentValidator != null)
+            errors = paymentValidator.validate(payment);
         if(errors.isEmpty())
             paymentList.add(payment);
         else
