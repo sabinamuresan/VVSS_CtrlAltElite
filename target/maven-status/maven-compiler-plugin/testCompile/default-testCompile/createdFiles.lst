@@ -1,0 +1,5 @@
+pizzashop\repository\TestPaymentRepository.class
+pizzashop\service\PizzaServiceTest.class
+pizzashop\service\TestPaymentServiceWithMockito.class
+pizzashop\model\TestPayment.class
+pizzashop\service\PizzaServiceTest_l3.class

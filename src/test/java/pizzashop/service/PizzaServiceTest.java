@@ -1,4 +1,4 @@
-package service;
+package pizzashop.service;
 
 import org.junit.jupiter.api.*;
 import pizzashop.model.PaymentType;
