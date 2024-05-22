@@ -12,4 +12,5 @@ module pizzashop {
     exports pizzashop.controller;
     exports pizzashop.repository;
     exports pizzashop.service;
+    exports pizzashop.validator;
 }

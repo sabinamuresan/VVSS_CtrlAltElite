@@ -2,6 +2,8 @@ package pizzashop.repository;
 
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
+import pizzashop.service.PaymentException;
+import pizzashop.validator.PaymentValidator;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,7 +13,13 @@ import java.util.StringTokenizer;
 public class PaymentRepository {
     private static String filename = "data/payments.txt";
     private List<Payment> paymentList;
+    private PaymentValidator paymentValidator;
 
+    public PaymentRepository(PaymentValidator paymentValidator){
+        this.paymentValidator = paymentValidator;
+        this.paymentList = new ArrayList<>();
+        readPayments();
+    }
     public PaymentRepository(){
         this.paymentList = new ArrayList<>();
         readPayments();
@@ -48,7 +56,11 @@ public class PaymentRepository {
     }
 
     public void add(Payment payment){
-        paymentList.add(payment);
+        List<String> errors = paymentValidator.validate(payment);
+        if(errors.isEmpty())
+            paymentList.add(payment);
+        else
+            throw new PaymentException(errors.get(0));
         writeAll();
     }
 
