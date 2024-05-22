@@ -30,6 +30,9 @@ public class Payment {
     public double getAmount() {
         return amount;
     }
+    public Payment getPayment(){
+        return new Payment(6,PaymentType.Cash,32);
+    }
 
     public void setAmount(double amount) {
         this.amount = amount;
