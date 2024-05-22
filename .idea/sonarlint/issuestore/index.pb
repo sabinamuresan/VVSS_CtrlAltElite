@@ -31,17 +31,7 @@ e
 5src/main/java/pizzashop/service/PaymentException.java,0\b\0bb36f2357751ab17b0492bd3517329f2c462dc5
 N
 src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
-[
-+src/test/java/service/PizzaServiceTest.java,5\4\540677ad2e85c3a864ee3a10ce73ec74943679f2
-T
-$src/test/java/model/TestPayment.java,4\4\4461f4e5e1fb2a129bc9c88b46d181f265a8cd8a
-^
-.src/test/java/service/PizzaServiceTest_l3.java,6\9\69c6bf1a8d5401d473d4b72cb9517b5991ec644f
-h
-8src/test/java/service/TestPaymentServiceWithMockito.java,4\b\4b95b1be367c21ac44b60d014232815254ee7140
 g
 7src/main/java/pizzashop/validator/PaymentValidator.java,3\8\382d4a52888df649339349a9f7602bde983efa4b
-c
-3src/test/java/repository/TestPaymentRepository.java,4\5\4588edb8e225c202d062deb30af0cb4882c16333
 A
 data/payments.txt,d\2\d2a5f732e98cfbd218db5005ce078c2272f24106
